@@ -1,1 +1,77 @@
-<mxfile host="app.diagrams.net" modified="2022-10-01T10:18:12.072Z" agent="5.0 (Windows)" version="20.4.0" etag="koQ4bE9kiHt3qjdzUIeC" type="github"><diagram id="UFO-86YUctxNthWrrabZ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-10-01T11:05:16.251Z" agent="5.0 (Windows)" etag="pxelRz8vzwib-xIBfurI" version="20.4.0" type="github">
+  <diagram id="UFO-86YUctxNthWrrabZ" name="Page-1">
+    <mxGraphModel dx="1038" dy="564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bmxlZapzJ7TXoDSQTFu3-2" value="type of transaction" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="160" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bmxlZapzJ7TXoDSQTFu3-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bmxlZapzJ7TXoDSQTFu3-3" target="bmxlZapzJ7TXoDSQTFu3-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="198.98000000000002" y="291.98" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bmxlZapzJ7TXoDSQTFu3-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bmxlZapzJ7TXoDSQTFu3-3" target="bmxlZapzJ7TXoDSQTFu3-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bmxlZapzJ7TXoDSQTFu3-3" value="Time in App" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="160" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bmxlZapzJ7TXoDSQTFu3-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bmxlZapzJ7TXoDSQTFu3-4" target="bmxlZapzJ7TXoDSQTFu3-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="175" />
+              <mxPoint x="520" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bmxlZapzJ7TXoDSQTFu3-4" value="BunkId" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="160" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bmxlZapzJ7TXoDSQTFu3-8" value="&lt;div&gt;Current IST time&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="230" width="75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bmxlZapzJ7TXoDSQTFu3-9" value="&lt;div&gt;Previous Bunk IST &lt;br&gt;&lt;/div&gt;&lt;div&gt;Start Time &lt;/div&gt;(6 Am)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="230" width="75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bmxlZapzJ7TXoDSQTFu3-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="bmxlZapzJ7TXoDSQTFu3-11" target="bmxlZapzJ7TXoDSQTFu3-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bmxlZapzJ7TXoDSQTFu3-11" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="630" y="40" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bmxlZapzJ7TXoDSQTFu3-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="bmxlZapzJ7TXoDSQTFu3-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="70" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bmxlZapzJ7TXoDSQTFu3-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="bmxlZapzJ7TXoDSQTFu3-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="140" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bmxlZapzJ7TXoDSQTFu3-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.583;entryY=-0.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="bmxlZapzJ7TXoDSQTFu3-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="140" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bmxlZapzJ7TXoDSQTFu3-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bmxlZapzJ7TXoDSQTFu3-13" target="bmxlZapzJ7TXoDSQTFu3-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bmxlZapzJ7TXoDSQTFu3-13" value="App entry" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="40" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bmxlZapzJ7TXoDSQTFu3-17" value="Last Daily data physical time" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="200" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bmxlZapzJ7TXoDSQTFu3-20" value="Form data" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="160" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bmxlZapzJ7TXoDSQTFu3-23" value="App" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="239" y="25" width="60" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
