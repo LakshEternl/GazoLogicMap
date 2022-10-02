@@ -1,2 +1,2 @@
 # GazoLogicMap
-Please open it in drwa.io
+Please open it in draw.io
