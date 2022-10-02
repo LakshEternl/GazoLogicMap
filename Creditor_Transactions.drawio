@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-02T11:15:50.531Z" agent="5.0 (Windows)" etag="fYQ9SpNTr5bTDPDr0-NH" version="20.4.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-10-02T11:16:41.248Z" agent="5.0 (Windows)" etag="9dGP7LV65SR1TGlf2wgO" version="20.4.0" type="github" pages="3">
   <diagram id="UFO-86YUctxNthWrrabZ" name="InitialCheck">
     <mxGraphModel dx="1185" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -402,6 +402,9 @@
         </mxCell>
         <mxCell id="OBjwvw2ulBUh5WhnZQg7-3" value="physicalDate" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="460" y="940" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WsWmBIwObfpHpws46Mx3-1" value="&lt;div&gt;BunkCustomerTransactions&lt;/div&gt;&lt;div&gt;BunkLoyalCustomers&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=4;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="520" y="95" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
