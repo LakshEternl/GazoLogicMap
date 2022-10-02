@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-02T11:17:26.455Z" agent="5.0 (Windows)" etag="St4660l3usqUX2AWpsSR" version="20.4.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-10-02T11:21:55.196Z" agent="5.0 (Windows)" etag="TEhx-qI1QHo8NjVS2XxW" version="20.4.0" type="github" pages="3">
   <diagram id="UFO-86YUctxNthWrrabZ" name="InitialCheck">
     <mxGraphModel dx="1185" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -739,7 +739,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="lTfcYLjkg4FXEiwKvqYn-23" value="newCredit &amp;gt; customerMaxLimit" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="467.5" y="577.5" width="162.5" height="60" as="geometry" />
+          <mxGeometry x="467.5" y="558" width="142.5" height="100" as="geometry" />
         </mxCell>
         <mxCell id="lTfcYLjkg4FXEiwKvqYn-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="lTfcYLjkg4FXEiwKvqYn-27" target="lTfcYLjkg4FXEiwKvqYn-23">
           <mxGeometry relative="1" as="geometry" />
