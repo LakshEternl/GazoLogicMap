@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-02T10:01:00.782Z" agent="5.0 (Windows)" etag="3G-dYyo9YPWfCzqyUxRe" version="20.4.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-10-02T10:01:40.585Z" agent="5.0 (Windows)" etag="FIV6pdMGjpTxQtZecfhE" version="20.4.0" type="github" pages="3">
   <diagram id="UFO-86YUctxNthWrrabZ" name="InitialCheck">
-    <mxGraphModel dx="1422" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1673" dy="918" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,7 +13,11 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="F_TJFi4LrAJhtxRnxTKd-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" source="bmxlZapzJ7TXoDSQTFu3-2" target="F_TJFi4LrAJhtxRnxTKd-1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="249" y="240" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="bmxlZapzJ7TXoDSQTFu3-2" value="type of transaction" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="199" y="160" width="100" height="30" as="geometry" />
