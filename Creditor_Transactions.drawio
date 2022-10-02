@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-02T11:12:40.438Z" agent="5.0 (Windows)" etag="MRoBPcuHATzHYcW1gg66" version="20.4.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-10-02T11:15:50.531Z" agent="5.0 (Windows)" etag="fYQ9SpNTr5bTDPDr0-NH" version="20.4.0" type="github" pages="3">
   <diagram id="UFO-86YUctxNthWrrabZ" name="InitialCheck">
     <mxGraphModel dx="1185" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -376,14 +376,29 @@
         <mxCell id="F_TJFi4LrAJhtxRnxTKd-33" value="appTime &lt;br&gt;&amp;lt;= lastDailyData + 1day" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="574" width="162.5" height="84" as="geometry" />
         </mxCell>
+        <mxCell id="BhN2m-881gE5lRslODNI-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;fontColor=#000000;shape=arrow;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="1" source="F_TJFi4LrAJhtxRnxTKd-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="F_TJFi4LrAJhtxRnxTKd-38" value="Start entry procesing. check the respective pages for Expense or Payment" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="243.75" y="1040" width="250" height="80" as="geometry" />
         </mxCell>
         <mxCell id="OBjwvw2ulBUh5WhnZQg7-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="OBjwvw2ulBUh5WhnZQg7-2" target="OBjwvw2ulBUh5WhnZQg7-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="BhN2m-881gE5lRslODNI-3" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;fontColor=#000000;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="1" source="OBjwvw2ulBUh5WhnZQg7-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="1070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="OBjwvw2ulBUh5WhnZQg7-2" value="derive ddId" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="460" y="870" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BhN2m-881gE5lRslODNI-2" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;fontColor=#000000;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="1" source="OBjwvw2ulBUh5WhnZQg7-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="1070" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="OBjwvw2ulBUh5WhnZQg7-3" value="physicalDate" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="460" y="940" width="110" height="40" as="geometry" />
@@ -621,14 +636,14 @@
           <mxGeometry x="497" y="277.5" width="90" height="45" as="geometry" />
         </mxCell>
         <mxCell id="QJNja39h0BFjEXQ97Nh2-1" value="&lt;div&gt;Error While &lt;br&gt;&lt;/div&gt;&lt;div&gt;submitting&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="702" y="336" width="120" height="60" as="geometry" />
+          <mxGeometry x="670" y="336" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DqS0wvkwuURaw-F4qPDE-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="DqS0wvkwuURaw-F4qPDE-1" target="QJNja39h0BFjEXQ97Nh2-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DqS0wvkwuURaw-F4qPDE-4" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#000000;" vertex="1" connectable="0" parent="DqS0wvkwuURaw-F4qPDE-3">
           <mxGeometry x="-0.8386" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="16" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DqS0wvkwuURaw-F4qPDE-1" value="docCount &amp;gt;0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -717,7 +732,7 @@
         </mxCell>
         <mxCell id="lTfcYLjkg4FXEiwKvqYn-26" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#000000;" vertex="1" connectable="0" parent="lTfcYLjkg4FXEiwKvqYn-25">
           <mxGeometry x="-0.9077" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="6" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lTfcYLjkg4FXEiwKvqYn-23" value="newCredit &amp;gt; customerMaxLimit" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
