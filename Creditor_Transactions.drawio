@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-02T10:00:07.057Z" agent="5.0 (Windows)" etag="T5mPt1jWZIUlfqb8SkRk" version="20.4.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-02T10:01:00.782Z" agent="5.0 (Windows)" etag="3G-dYyo9YPWfCzqyUxRe" version="20.4.0" type="github" pages="3">
   <diagram id="UFO-86YUctxNthWrrabZ" name="InitialCheck">
     <mxGraphModel dx="1422" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -367,11 +367,133 @@
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram id="uxflnWjWGR5eURn50vJW" name="Type == Expense">
+    <mxGraphModel dx="1422" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Zhvy3vGY6magkcSa3c1I-1" value="type of transaction" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="199" y="160" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zhvy3vGY6magkcSa3c1I-2" value="Time in App" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="310" y="160" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zhvy3vGY6magkcSa3c1I-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" source="Zhvy3vGY6magkcSa3c1I-4" target="Zhvy3vGY6magkcSa3c1I-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="175" />
+              <mxPoint x="520" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zhvy3vGY6magkcSa3c1I-4" value="BunkId" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="400" y="160" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zhvy3vGY6magkcSa3c1I-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="Zhvy3vGY6magkcSa3c1I-6" target="Zhvy3vGY6magkcSa3c1I-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zhvy3vGY6magkcSa3c1I-6" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="630" y="40" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Zhvy3vGY6magkcSa3c1I-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.848;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" source="Zhvy3vGY6magkcSa3c1I-14" target="Zhvy3vGY6magkcSa3c1I-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="299" y="110" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="350" y="101" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zhvy3vGY6magkcSa3c1I-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" source="Zhvy3vGY6magkcSa3c1I-14" target="Zhvy3vGY6magkcSa3c1I-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="140" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zhvy3vGY6magkcSa3c1I-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Zhvy3vGY6magkcSa3c1I-10" target="Zhvy3vGY6magkcSa3c1I-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zhvy3vGY6magkcSa3c1I-10" value="App entry" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="85" y="30" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zhvy3vGY6magkcSa3c1I-11" value="Last Daily data physical time" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="530" y="160" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zhvy3vGY6magkcSa3c1I-12" value="Form data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="20" y="160" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zhvy3vGY6magkcSa3c1I-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" source="Zhvy3vGY6magkcSa3c1I-14" target="Zhvy3vGY6magkcSa3c1I-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zhvy3vGY6magkcSa3c1I-14" value="App" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="239" y="25" width="60" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Zhvy3vGY6magkcSa3c1I-15" value="&lt;font style=&quot;font-size: 16px;&quot; color=&quot;#CC0000&quot;&gt;&lt;b&gt;Logic map valid for Mobile App only&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="20" width="220" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="r62inNShKkcUlB0TyHJD" name="Type = Payment">
     <mxGraphModel dx="1422" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="NvDgR9tG-Fov8MUNZe-v-1" value="type of transaction" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="199" y="160" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NvDgR9tG-Fov8MUNZe-v-2" value="Time in App" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="310" y="160" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NvDgR9tG-Fov8MUNZe-v-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" source="NvDgR9tG-Fov8MUNZe-v-4" target="NvDgR9tG-Fov8MUNZe-v-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="175" />
+              <mxPoint x="520" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NvDgR9tG-Fov8MUNZe-v-4" value="BunkId" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="400" y="160" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NvDgR9tG-Fov8MUNZe-v-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="NvDgR9tG-Fov8MUNZe-v-6" target="NvDgR9tG-Fov8MUNZe-v-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NvDgR9tG-Fov8MUNZe-v-6" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="630" y="40" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NvDgR9tG-Fov8MUNZe-v-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.848;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" source="NvDgR9tG-Fov8MUNZe-v-14" target="NvDgR9tG-Fov8MUNZe-v-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="299" y="110" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="350" y="101" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NvDgR9tG-Fov8MUNZe-v-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" source="NvDgR9tG-Fov8MUNZe-v-14" target="NvDgR9tG-Fov8MUNZe-v-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="140" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NvDgR9tG-Fov8MUNZe-v-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NvDgR9tG-Fov8MUNZe-v-10" target="NvDgR9tG-Fov8MUNZe-v-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NvDgR9tG-Fov8MUNZe-v-10" value="App entry" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="85" y="30" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NvDgR9tG-Fov8MUNZe-v-11" value="Last Daily data physical time" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="530" y="160" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NvDgR9tG-Fov8MUNZe-v-12" value="Form data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="20" y="160" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NvDgR9tG-Fov8MUNZe-v-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" source="NvDgR9tG-Fov8MUNZe-v-14" target="NvDgR9tG-Fov8MUNZe-v-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NvDgR9tG-Fov8MUNZe-v-14" value="App" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="239" y="25" width="60" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="NvDgR9tG-Fov8MUNZe-v-15" value="&lt;font style=&quot;font-size: 16px;&quot; color=&quot;#CC0000&quot;&gt;&lt;b&gt;Logic map valid for Mobile App only&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="20" width="220" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
